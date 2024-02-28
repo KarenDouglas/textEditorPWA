@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
@@ -28,5 +28,8 @@
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
+  },
+  "comments": {
+    "comments-mini-css-extract-plugin": " Extracts CSS into separate files"
   }
 }
