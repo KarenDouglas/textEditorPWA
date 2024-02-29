@@ -1,5 +1,13 @@
 # 19 Progressive Web Applications (PWA): Text Editor
 
+## Live Site and Video Demo
+
+### Live Site
+[View the Live Site](https://karendouglas.github.io/weather-dashboard/)
+![Screenshot 2024-01-11 042328](https://github.com/KarenDouglas/weather-dashboard/assets/79128405/ece96254-324f-4e00-81b2-7f57c7d195e0)
+
+### Video Sample
+[![Watch the video](./example/employeeTracker%20CLI%20-%20Made%20with%20Clipchamp.gif)](https://youtu.be/axKSFufL-Fg)
 
 ## User Story
 
@@ -9,6 +17,22 @@ I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 ```
 
+## Built With
+ - JavaScript
+ - Node.js
+ - Inquirer NPM package
+ - Sequelize
+ - MySQL
+ ## Instructions
+ 
+ To download node packages:
+```bash
+npm i
+```
+To start employee tracker and seed data:
+```bash
+npm run dev
+```
 ## Acceptance Criteria
 
 ```md
@@ -39,3 +63,8 @@ WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
 ```
 
+## Author
+
+- LinkedIn: [@KarenDouglas](https://www.linkedin.com/in/karen-douglas-344974246/)
+- Frontend Mentor: [@KarenDouglas](https://www.frontendmentor.io/profile/KarenDouglas)
+- Twitter: [@CodeNoob4Life](https://twitter.com/CodeNoob4Life)
