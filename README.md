@@ -3,11 +3,11 @@
 ## Live Site and Video Demo
 
 ### Live Site
-[View the Live Site](https://karendouglas.github.io/weather-dashboard/)
-![Screenshot 2024-01-11 042328](https://github.com/KarenDouglas/weather-dashboard/assets/79128405/ece96254-324f-4e00-81b2-7f57c7d195e0)
+[View the Live Site](https://jate-text-editor-pwapp-f14a1469c3bd.herokuapp.com/)
+
 
 ### Video Sample
-[![Watch the video](./example/employeeTracker%20CLI%20-%20Made%20with%20Clipchamp.gif)](https://youtu.be/axKSFufL-Fg)
+[![Watch the video](./assets/JATE-PWAChallenge%20-%20Made%20with%20Clipchamp.gif)](https://www.youtube.com/watch?v=Hizvao8PlOA)
 
 ## User Story
 
@@ -26,17 +26,21 @@ SO THAT I can reliably retrieve them for later use
 - IDB
 - Babel
 - Mini CSS Plugin
-- WorkBox
+- WorkBox Plugin
 
  ## Instructions
  
- To download node packages:
+ To download node packages in root directory:
 ```bash
 npm i
 ```
-To start employee tracker and seed data:
+ To download node packages in client and server directory:
 ```bash
-npm run dev
+npm run install
+```
+To start JATE App:
+```bash
+npm run start
 ```
 ## Acceptance Criteria
 
