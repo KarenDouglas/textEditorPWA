@@ -16,11 +16,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "idb": "^6.1.2"
+    "idb": "^6.1.2",
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "heroku": "^8.10.0",
     "nodemon": "^2.0.4"
   }
 }
