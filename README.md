@@ -18,11 +18,16 @@ SO THAT I can reliably retrieve them for later use
 ```
 
 ## Built With
- - JavaScript
- - Node.js
- - Inquirer NPM package
- - Sequelize
- - MySQL
+- JavaScript
+- Node.js
+- Webpack
+- Express
+- Heroku
+- IDB
+- Babel
+- Mini CSS Plugin
+- WorkBox
+
  ## Instructions
  
  To download node packages:

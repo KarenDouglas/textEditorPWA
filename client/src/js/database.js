@@ -13,8 +13,9 @@ const initdb = async () =>
   });
 
 
-export const putDb = async (id, content) => {
+export const putDb = async (content) => {
   console.log('PUT to the database');
+ // Retrieve all keys of previous entries
 
   // Create a connection to the database database and version we want to use.
   const jateDb = await openDB('jate', 1);
@@ -24,9 +25,14 @@ export const putDb = async (id, content) => {
 
     // Open up the desired object store
   const store = tx.objectStore('jate');
+// gets all keys from store
+  const keysRequest = store.getAllKeys();
+  const keys = await keysRequest;
+// gets new id from the length of the keys array
+ const id = keys.length
 
   // use put method 
-  const request = store.put({ id: id, jate: content });
+  const request = store.put({id, content });
 
   // Get confirmation of the request.
   const result = await request;
@@ -51,10 +57,12 @@ export const getDb = async () => {
 
   // Use the .getAll() method to get all data in the database.
   const request = store.getAll();
-
   // Get confirmation of the request.
   const result = await request;
   console.log('result.value', result);
+  const localData = localStorage.getItems('content');
+  console.log(typeof arr)
+  console.log('data',localData)
   return result;
 };
 
